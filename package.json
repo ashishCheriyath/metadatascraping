@@ -1,0 +1,24 @@
+{
+  "name": "metadatascraping",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "test": "nodemon ./bin/www",
+    "testmocha": "mocha ./test/test.js"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.3",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "ejs": "~2.6.1",
+    "express": "~4.16.1",
+    "http-errors": "~1.6.3",
+    "mocha": "^6.2.2",
+    "morgan": "~1.9.1",
+    "nodemon": "^1.19.4",
+    "ogp-parser": "^0.4.4",
+    "request": "^2.88.0",
+    "request-promise": "^4.2.4"
+  }
+}
